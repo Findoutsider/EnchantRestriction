@@ -1,0 +1,25 @@
+name: EnchantRestriction
+main: com.enchantRestriction.EnchantRestriction
+version: 1.0
+api-version: 1.16
+
+commands:
+  enchantrestriction:
+    description: 附魔限制
+    usage: /enchantrestriction
+    permission: enchantrestriction.command
+    permission-message: 你没有权限
+  er:
+    description: 附魔限制
+    usage: /er
+    permission: enchantrestriction.command
+    permission-message: 你没有权限
+  reload:
+    description: 重载配置文件
+    usage: /enchantrestriction reload
+    permission: enchantrestriction.command
+    permission-message: 你没有权限
+
+permissions:
+  enchantrestriction.command:
+    default: op
